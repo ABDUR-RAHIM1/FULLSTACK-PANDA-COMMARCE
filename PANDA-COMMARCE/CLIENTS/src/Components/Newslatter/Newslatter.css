@@ -1,0 +1,28 @@
+.newsletterContainer {
+    margin-top: 100px 0px;
+    padding: 100px 0px;
+    background-color: #dd8bb482;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.formContainer {
+    width: 32%;
+    margin: auto;
+}
+
+.formText {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .newsletterContainer { 
+        padding: 40px 0px; 
+    }
+    .formContainer {
+        width: 80%;
+        margin: auto;
+    }
+}

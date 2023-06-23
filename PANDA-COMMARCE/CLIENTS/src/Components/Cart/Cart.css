@@ -1,0 +1,11 @@
+.cart{
+    color: black;
+}
+.cartItemContainer{
+    border-right: 1px solid rgb(241, 163, 163);
+    padding-right: 15px;
+}
+
+.cartCounter{ 
+    padding-left: 15px;
+}

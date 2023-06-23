@@ -1,0 +1,39 @@
+.productContainer {
+    color: black;
+}
+
+.shoesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.shoesCard {
+    width: 32%;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.shoesCard img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.bagContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .shoesCard {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+    
+}

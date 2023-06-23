@@ -1,0 +1,10 @@
+.usersContainer{
+    width: 100%; 
+}
+
+@media screen and (max-width: 768px){
+    .usersContainer{
+        width: 100%;
+        overflow: scroll;
+    }
+}
