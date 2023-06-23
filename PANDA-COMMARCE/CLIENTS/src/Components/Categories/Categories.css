@@ -1,0 +1,23 @@
+.col1 {
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    margin: 20px 0px;
+}
+
+.col2 {
+    background-color: green;
+}
+
+.col3 {
+    background-color: blue;
+}
+
+.text h2 {
+    color: white;
+}
